@@ -11,16 +11,17 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+  color: var(--tc);
 }
 
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 a {
   text-decoration: none;
-  color: var(--hc);
 }
 
 li {
@@ -28,5 +29,23 @@ li {
 }
 
 p {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+small {
+  font-size: 1.2rem;
   font-weight: 300;
 }
