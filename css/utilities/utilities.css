@@ -1,0 +1,19 @@
+.pry-btn {
+  background-color: var(--pc);
+  color: var(--w);
+  border: none;
+  border-radius: 10px;
+}
+
+.outline-btn {
+  background-color: transparent;
+  color: var(--pb);
+  border: 1px solid var(--pb);
+  border-radius: 10px;
+}
+
+.logo {
+  font-family: var(--ff2);
+  font-size: 4.81rem;
+  color: var(--pc);
+}
