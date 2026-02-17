@@ -1,0 +1,25 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-content {
+  visibility: collapse;
+}
+
+/* tab */
+@media (min-width: 768px) {
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}

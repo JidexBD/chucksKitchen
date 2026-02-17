@@ -32,11 +32,82 @@
     <link rel="stylesheet" href="/css/utilities/utilities.css" />
     <link rel="stylesheet" href="/css/utilities/base.css" />
     <link rel="stylesheet" href="/css/utilities/variables.css" />
+
+    <!-- sign in -->
+    <link rel="stylesheet" href="/css/signIn/signIn.css" />
   </head>
   <body>
-    <section class="container"></section>
-    <div id="footer-container"></div>
+    <section class="container">
+      <!-- the left content that only shows up on bigger screems -->
+      <div class="left-content">
+        <h2>CHucks Kitchen</h2>
+        <p>
+          Your journey to delicious, authentic Nigerian meals starts here. Sign
+          up or log in to order your favorites today!
+        </p>
+      </div>
 
+      <!-- the box containing our sign in content  -->
+      <div class="right-content">
+        <!-- logo & header -->
+        <div class="header">
+          <p class="logo">Chucks Kitchen</p>
+          <h2>Login to your Account</h2>
+        </div>
+        <!-- input container  -->
+        <div class="input-container">
+          <!-- sign in form -->
+          <form action="#" method="post">
+            <!-- email / phone -->
+            <div class="mail-box">
+              <label for="email">Email or Phone number</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="name@gmail.com"
+                required
+              />
+            </div>
+
+            <!-- password -->
+            <div class="pass-box">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="******"
+                required
+              />
+              <a href="#">Forgot Password?</a>
+            </div>
+
+            <!-- submit button -->
+            <button type="submit" class="pry-btn">Continue</button>
+          </form>
+          <!-- socials -->
+          <div class="socials">
+            <!-- social login -->
+            <p>Or continue with</p>
+
+            <a href="#" class="btn">
+              <img src="/assets/images/signIn/google.svg" alt="Google logo" />
+              <span>Continue with Google</span>
+            </a>
+
+            <a href="#" class="btn">
+              <img
+                src="/assets/images/signIn/facebook.svg"
+                alt="Facebook logo"
+              />
+              <span>Continue with Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="footer-container"></div>
     <!-- js -->
     <script src="/components/js/footer.js"></script>
   </body>
