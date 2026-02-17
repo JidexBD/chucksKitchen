@@ -26,6 +26,7 @@ a {
 
 li {
   font-size: var(--fs3);
+  list-style: none;
 }
 
 p {
