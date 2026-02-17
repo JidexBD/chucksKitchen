@@ -88,12 +88,256 @@
   align-self: center;
 }
 
+/* buttons */
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+#start-order,
+#learn-more {
+  display: block;
+  padding: 2rem 8rem;
+  font-size: 1.6rem;
+}
+
+#learn-more {
+  white-space: nowrap;
+}
+/* bottom */
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* tab */
 @media (min-width: 768px) {
+  .on-container {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .on-img-box {
+    height: 100vh;
+    flex: 2;
+    /* padding: 0rem 2rem; */
+    background-image: url("/assets/images/onboarding/img1_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* container of contents */
+  .on-content-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* tab & web logo / sigin in button */
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 8rem;
+  }
+
+  #logo {
+    order: 1;
+    align-self: center;
+    white-space: nowrap;
+  }
+
+  #signIn-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: 10rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    order: 2;
+    white-space: nowrap;
+  }
+
+  /* header & subheader */
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .text-container h2 {
+    font-size: 3.2rem;
+  }
+
+  .text-container p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  /* box features  */
+  .box-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 3.7rem;
+    margin-left: 2rem;
+  }
+
+  /* buttons */
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-left: 4rem;
+    margin-bottom: 20rem;
+  }
+
+  #start-order,
+  #learn-more {
+    display: inline-block;
+    padding: 2rem 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #learn-more {
+    white-space: nowrap;
+  }
+  /* bottom */
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* 1024 */
 @media (min-width: 1280px) {
+  .on-container {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .on-img-box {
+    height: 100vh;
+    flex: 1;
+    /* padding: 0rem 2rem; */
+    background-image: url("/assets/images/onboarding/img1_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* container of contents */
+  .on-content-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 3rem;
+    margin-right: 4rem;
+  }
+
+  /* tab & web logo / sigin in button */
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 17rem;
+    margin-top: 0rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+  }
+
+  #logo {
+    order: 1;
+    align-self: center;
+  }
+
+  #signIn-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: 10rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    order: 2;
+  }
+
+  /* header & subheader */
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+  }
+
+  .text-container h2 {
+    font-size: 3.2rem;
+  }
+
+  .text-container p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  /* box features  */
+  .box-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 3.7rem;
+    margin-left: 4rem;
+  }
+
+  /* buttons */
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+  }
+
+  #start-order,
+  #learn-more {
+    display: inline-block;
+    padding: 2rem 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #learn-more {
+    white-space: nowrap;
+  }
+
+  /* bottom */
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* 1440 */
@@ -102,4 +346,127 @@
 
 /* 1800 */
 @media (min-width: 1800px) {
+  .on-container {
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    overflow: hidden;
+  }
+
+  .on-img-box {
+    flex: 1;
+
+    /* padding: 0rem 2rem; */
+    background-image: url("/assets/images/onboarding/img1_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* container of contents */
+  .on-content-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: 10rem;
+  }
+
+  /* tab & web logo / sigin in button */
+  .top {
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+  }
+
+  #logo {
+    order: 1;
+    align-self: center;
+  }
+
+  #signIn-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: 10rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    order: 2;
+  }
+
+  /* header & subheader */
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+  }
+
+  .text-container h2 {
+    font-size: 3.2rem;
+  }
+
+  .text-container p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  /* box features  */
+  .box-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 3.7rem;
+    margin-left: 4rem;
+  }
+
+  .card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem 8rem 1rem 1rem;
+    background-color: #bdbdbd21;
+    border-radius: 0.8rem;
+  }
+  .card p {
+    font-size: 2.8rem;
+    font-weight: 500;
+    align-self: center;
+  }
+  /* buttons */
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-left: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  #start-order,
+  #learn-more {
+    display: inline-block;
+    padding: 2rem 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  #learn-more {
+    white-space: nowrap;
+  }
+
+  /* bottom */
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
