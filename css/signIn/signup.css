@@ -1,0 +1,385 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* left content  */
+.left-content {
+  display: none;
+}
+
+/* right content */
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* logo and header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.header h2 {
+  font-size: 2.4rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mail-box,
+.pass-box,
+.phone-box,
+.pass-box-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+label {
+  font-size: 1.4rem;
+  align-self: flex-start;
+}
+/* input icon */
+#env {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: var(--s);
+}
+#ph {
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: var(--s);
+}
+#loc {
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: var(--s);
+}
+
+#loci {
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: var(--s);
+}
+input {
+  padding: 1rem 16rem 1rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.policy-box {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 2rem 8rem;
+  font-size: 1.6rem;
+  transition: 01s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: transparent;
+  color: var(--tc);
+  border: 1px solid var(--tc);
+}
+
+/* socials */
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.btn {
+  padding: 1rem 8rem;
+  border: 1px solid var(--dgt);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tc);
+  font-size: 1.4rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--pb);
+  color: var(--w);
+}
+
+.create-a {
+  display: flex;
+}
+
+.create-a a {
+  color: var(--pb);
+}
+/* footer */
+#footer-container {
+  display: none;
+}
+/* tab */
+@media (min-width: 768px) {
+  .container {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  /* left content  */
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+      linear-gradient(rgba(224, 148, 6, 0.356), rgba(255, 165, 0, 0.3)),
+      url("/assets/images/Rectangle 1-1.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 1000px;
+  }
+
+  .left-content h2 {
+    color: var(--w);
+    font-size: 4.8rem;
+  }
+
+  .left-content p {
+    color: var(--w);
+    letter-spacing: 2px;
+    text-align: center;
+    max-width: 30ch;
+    font-size: 2.4rem;
+  }
+
+  /* right content */
+  .right-content {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* logo and header */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .header h2 {
+    font-size: 2.4rem;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .mail-box,
+  .pass-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    position: relative;
+  }
+  label {
+    font-size: 1.4rem;
+    align-self: flex-start;
+  }
+  /* input icon */
+  #env {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: var(--s);
+  }
+
+  #loc {
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: var(--s);
+  }
+  input {
+    padding: 1rem 16rem 1rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .forget {
+    align-self: flex-end;
+    color: var(--pb);
+    cursor: pointer;
+  }
+
+  button {
+    padding: 2rem 8rem;
+    font-size: 1.6rem;
+    transition: 01s ease-in-out;
+    cursor: pointer;
+  }
+
+  button:hover,
+  button:active {
+    background-color: transparent;
+    color: var(--tc);
+    border: 1px solid var(--tc);
+  }
+
+  /* socials */
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .btn {
+    padding: 1rem 8rem;
+    border: 1px solid var(--dgt);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--tc);
+    font-size: 1.4rem;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .btn:hover,
+  .btn:active {
+    background-color: var(--pb);
+    color: var(--w);
+  }
+
+  .create-a {
+    display: flex;
+  }
+
+  .create-a a {
+    color: var(--pb);
+  }
+  /* footer */
+  #footer-container {
+    display: block;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  /* left content  */
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+      linear-gradient(rgba(224, 148, 6, 0.356), rgba(255, 165, 0, 0.3)),
+      url("/assets/images/Rectangle 1-1.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 1000px;
+  }
+
+  .left-content h2 {
+    color: var(--w);
+    font-size: 4.8rem;
+  }
+
+  .left-content p {
+    color: var(--w);
+    letter-spacing: 2px;
+    text-align: center;
+    max-width: 30ch;
+    font-size: 2.4rem;
+  }
+
+  /* right content */
+  .right-content {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}
