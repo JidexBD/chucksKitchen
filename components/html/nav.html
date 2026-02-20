@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>footer</title>
+    <title>home_login</title>
 
     <!-- cdn -->
     <link
@@ -27,14 +27,58 @@
       href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
       rel="stylesheet"
     />
-
     <!-- css -->
     <link rel="stylesheet" href="/css/utilities/utilities.css" />
     <link rel="stylesheet" href="/css/utilities/base.css" />
     <link rel="stylesheet" href="/css/utilities/variables.css" />
+
+    <!-- css -->
     <link rel="stylesheet" href="/components/css/nav.css" />
   </head>
   <body>
+    <nav>
+      <a href="#" class="logo">Chuck Kitcen</a>
+
+      <!-- desktop links  -->
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">My Orders</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+      <div class="btn-container">
+        <a href="#"
+          ><i
+            class="fa-solid fa-user fa-lg"
+            style="color: rgb(255, 255, 255)"
+          ></i
+        ></a>
+      </div>
+
+      <!-- mobile button -->
+      <a href="#" class="mobile-btn">
+        <i class="fa-solid fa-bars fa-2xl" style="color: rgb(18, 35, 66)"></i>
+      </a>
+    </nav>
+
+    <!-- mbbile sidebar -->
+    <div class="mobile-sidebar">
+      <a href="#" class="close-sidebar"
+        ><i class="fa-solid fa-x fa-sm" style="color: rgb(18, 35, 66)"></i
+      ></a>
+
+      <!-- mobile - links -->
+      <ul class="side-container">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">My Orders</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+      <div class="btn-container">
+        <a href="#">Login</a>
+      </div>
+    </div>
+
     <!-- js -->
     <script src="/components/js/nav.js"></script>
   </body>
