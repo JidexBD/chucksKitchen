@@ -65,6 +65,14 @@ nav {
   cursor: pointer;
 }
 
+.mobile-sidebar .btn-container {
+  display: block;
+  background-color: var(--dgt);
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
 /* desktop */
 @media (min-width: 1024px) {
   nav {
@@ -84,6 +92,7 @@ nav {
   .btn-container {
     display: flex;
   }
+
   .btn-container a {
     padding: 2rem 6rem;
     background-color: var(--pc);
