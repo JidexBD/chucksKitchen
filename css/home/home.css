@@ -12,6 +12,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
 }
 
 .hero-container {
@@ -119,3 +121,78 @@ header {
     justify-content: flex-start;
   }
 }
+
+/*search */
+.search-container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+form {
+  position: relative;
+  top: -5rem;
+}
+
+input {
+  padding: 1.5rem 7rem;
+  border-radius: 10px;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+input::placeholder {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+#search {
+  position: absolute;
+  font-size: 1.6rem;
+  top: 2rem;
+  left: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  input {
+    padding: 1.5rem 11rem;
+    align-items: left;
+  }
+}
+
+input::placeholder {
+  text-align: left;
+  font-size: 2rem;
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  input {
+    padding: 1.5rem 16rem;
+    align-items: left;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  input {
+    padding: 2rem 25rem;
+    align-items: left;
+  }
+
+  #search {
+    position: absolute;
+    font-size: 2.4rem;
+    top: 2.5rem;
+    left: 1.4rem;
+  }
+}
+
+/*  */
