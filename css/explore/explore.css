@@ -101,3 +101,37 @@ header {
     justify-content: flex-start;
   }
 }
+
+/* main */
+main {
+}
+
+/* menu Categories  */
+.menu {
+  padding: 2rem 0.8rem;
+}
+
+.menu h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2.8rem;
+}
+
+/* list of menuts  */
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.category-list li:active,
+.category-list li:hover {
+  padding: 2rem 8rem 2rem 1rem;
+  background-color: var(--so);
+  border-radius: 8px;
+  border-left: 10px solid var(--pc);
+}
+
+.category-list li a {
+  font-size: 2.4rem;
+  color: black;
+}
