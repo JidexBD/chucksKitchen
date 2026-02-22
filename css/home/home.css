@@ -246,12 +246,68 @@ main h2 {
   font-size: 1.4rem;
   margin: 2rem 1rem;
 }
+* main a {
+  color: var(--pb);
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
 
 @media (min-width: 768px) {
+  .cat-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    place-items: center;
+  }
+
+  .cat-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 60%;
+  }
+
+  .cat-card img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+
+  .cat-card p {
+    font-size: 1.4rem;
+    margin: 2rem 1rem;
+  }
 }
 
 /* 1024 */
 @media (min-width: 1280px) {
+  .cat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+  }
+  .cat-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 90%;
+  }
+  main a {
+    color: var(--pb);
+    display: none;
+  }
 }
 
 /* 1440 */
