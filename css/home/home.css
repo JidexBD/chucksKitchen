@@ -527,3 +527,131 @@ main h2 {
     margin-bottom: 1rem;
   }
 }
+
+/* new menu */
+
+.new-menu {
+  margin-top: 10rem;
+  background-image:
+    linear-gradient(rgba(32, 29, 24, 0.603), rgba(10, 8, 5, 0.384)),
+    url("/assets/images/home/Welcome.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+/* hero content  */
+.new-container h1 {
+  color: var(--w);
+  font-size: 3.2rem;
+}
+
+.new-container p {
+  color: var(--w);
+  font-size: 1.6rem;
+}
+
+.new-container a {
+  padding: 2rem 4rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.newcontainer a:hover,
+.new-container a:active {
+  background-color: transparent;
+  border: 1px solid var(--pc);
+  color: var(--pc);
+}
+
+/* tab */
+@media (min-width: 768px) {
+  .new-new {
+    padding: 2rem 3rem;
+    justify-content: flex-start;
+  }
+
+  .new-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  /* hero content  */
+  .new-container h1 {
+    font-size: 4rem;
+  }
+
+  .new-container p {
+    font-size: 3em;
+    font-weight: 500;
+  }
+
+  .new-container a {
+    padding: 2rem 4rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  .new-container {
+    gap: 4.2rem;
+  }
+
+  /* hero content  */
+  .new-container h1 {
+    font-size: 4.8rem;
+    max-width: 20ch;
+  }
+
+  .new-container p {
+    font-size: 3.2rem;
+    font-weight: 500;
+  }
+
+  .new-container a {
+    padding: 2rem 4rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  .new-menu {
+    padding: 2rem 8rem;
+    justify-content: flex-start;
+  }
+
+  .new-container p {
+    font-size: 3.2rem;
+    font-weight: 500;
+    max-width: 20ch;
+  }
+}
