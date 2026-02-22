@@ -317,3 +317,213 @@ main h2 {
 /* 1800 */
 @media (min-width: 1800px) {
 }
+
+/* chef specials */
+.specials {
+  margin-top: 5rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.specials h2 {
+  font-size: 2.4rem;
+}
+
+.special-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 5rem;
+}
+
+.special-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.special-card:active,
+.special-card:hover {
+  transform: scale(1.08);
+}
+
+.special-card img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.cad-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cad-content .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.top h2 {
+  font-size: 2.4rem;
+  white-space: nowrap;
+}
+
+.top p {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  margin-bottom: 1rem;
+}
+
+.bottom small {
+  color: var(--pc);
+}
+
+.bottom a {
+  background-color: var(--pc);
+  color: white;
+  padding: 2rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.bottom a:active,
+.bottom a:hover {
+  background-color: transparent;
+  border: 1px solid var(--pc);
+  color: var(--pc);
+  transform: scale(0.8);
+}
+
+@media (min-width: 768px) {
+  .special-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 60%;
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    gap: 24rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  .specials {
+    padding: 2rem 10rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .special-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 5re m;
+  }
+
+  .special-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .cad-content {
+    padding: 1rem 1rem;
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+  .specials {
+    padding: 2rem 10rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .special-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 5re m;
+  }
+
+  .special-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .cad-content {
+    padding: 1rem 1rem;
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    gap: 28rem;
+    margin-bottom: 1rem;
+  }
+}
