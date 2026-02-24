@@ -2,6 +2,12 @@ main {
   padding: 2rem;
 }
 
+.order-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .order-card {
   display: flex;
   gap: 1rem;
@@ -90,7 +96,8 @@ main {
   main {
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 2rem auto;
+    gap: 3rem;
   }
   .left img {
     width: 70%;
