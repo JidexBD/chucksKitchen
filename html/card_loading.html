@@ -32,8 +32,39 @@
     <link rel="stylesheet" href="/css/utilities/utilities.css" />
     <link rel="stylesheet" href="/css/utilities/base.css" />
     <link rel="stylesheet" href="/css/utilities/variables.css" />
+    <link rel="stylesheet" href="/css/orders/card_loading.css" />
   </head>
   <body>
-    <div></div>
+    <!-- nav -->
+    <div id="nav-wrapper"></div>
+    <div class="container">
+      <iframe
+        id="load"
+        src="https://lottie.host/embed/2699e137-a913-4ed1-ab52-595726e65725/LwlpTYVgqF.json"
+      ></iframe>
+    </div>
+    <!-- footer -->
+    <div id="footer-container"></div>
+
+    <!-- js -->
+
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+    <dotlottie-wc
+      src="https://lottie.host/2699e137-a913-4ed1-ab52-595726e65725/LwlpTYVgqF.json"
+      style="width: 300px; height: 300px"
+      autoplay
+      loop
+    ></dotlottie-wc>
+    <script src="/components/js/nav.js"></script>
+    <script src="/components/js/footer.js"></script>
+
+    <script>
+      setTimeout(() => {
+        window.location.href = "/html/card_order_completion.html";
+      }, 5000);
+    </script>
   </body>
 </html>
