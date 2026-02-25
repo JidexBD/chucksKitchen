@@ -1,0 +1,86 @@
+.container {
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 2rem;
+}
+
+.container h3 {
+  font-size: 1.6rem;
+}
+
+.your {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.track {
+  background-color: var(--pc);
+  color: white;
+  padding: 2rem 10rem;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.track:active,
+.track:hover {
+  background-color: transparent;
+  color: var(--pc);
+  border: 1px solid var(--pc);
+}
+
+.gen {
+  font-size: 1.6rem;
+}
+
+.need {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--pb);
+  margin: 2rem 8rem;
+  margin-bottom: 4rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .need {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--pb);
+    margin: 2rem 28rem;
+    margin-bottom: 8rem;
+    white-space: nowrap;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  .need {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--pb);
+    margin: 2rem 54rem;
+    margin-bottom: 8rem;
+    white-space: nowrap;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}
