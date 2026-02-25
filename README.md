@@ -77,4 +77,20 @@
     
     Tested on Chrome, Firefox, Edge, and Safari.
 
-    [project link:](https://devxproject.netlify.app/)
+    [project link:](https://chuckskitchenwebsite.netlify.app/)
+<img width="1920" height="1080" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/ae6fef20-3867-459f-a756-030f5d9bb8d0" />
+
+<img width="1920" height="1080" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/7edfb1c7-9322-4e48-95c0-61037818b12e" />
+
+<img width="1920" height="1080" alt="Screenshot (526)" src="https://github.com/user-attachments/assets/53b6835b-50e9-4e51-b2eb-074057bc1ae3" />
+
+
+
+https://github.com/user-attachments/assets/dbf5da68-e7f2-42a6-ba74-cfef69324c13
+
+
+
+
+https://github.com/user-attachments/assets/7e6bd2f2-a59c-4c9f-b161-d898c2e9dd37
+
+
