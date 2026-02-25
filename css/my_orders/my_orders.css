@@ -82,6 +82,13 @@ main {
   color: var(--w);
 }
 
+.more {
+  color: var(--pb);
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .right {
     display: flex;
@@ -159,6 +166,14 @@ main {
 
   .end a i {
     color: var(--w);
+  }
+
+  .more {
+    color: var(--pb);
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    display: none;
   }
 }
 
