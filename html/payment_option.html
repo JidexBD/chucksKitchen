@@ -31,6 +31,74 @@
     <link rel="stylesheet" href="/css/utilities/utilities.css" />
     <link rel="stylesheet" href="/css/utilities/base.css" />
     <link rel="stylesheet" href="/css/utilities/variables.css" />
+
+    <link rel="stylesheet" href="/css/orders/payment_options.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- nav -->
+    <div id="nav-wrapper"></div>
+
+    <section id="real">
+      <div class="container">
+        <div class="header">
+          <h2>Payment</h2>
+        </div>
+        <hr />
+
+        <div class="form-container">
+          <h3>Pay with..</h3>
+          <div class="radio-container">
+            <div class="boxy">
+              <input type="radio" id="bank" />
+              <label for="bank">Card</label>
+            </div>
+            <div class="boxy">
+              <input type="radio" id="bank" />
+              <label for="bank">Bank</label>
+            </div>
+            <div class="boxy">
+              <input type="radio" id="bank" />
+              <label for="bank">Transfer</label>
+            </div>
+          </div>
+
+          <div class="num">
+            <label for="number">Card Number </label>
+            <input type="tel" id="number" />
+          </div>
+
+          <div class="exp">
+            <div class="datey">
+              <label for="date">Expiration Date</label>
+              <input type="date" id="date" />
+            </div>
+            <div class="cc">
+              <label for="ccv">CCV</label>
+              <input type="text" id="CCV" />
+            </div>
+          </div>
+
+          <div class="save">
+            <input type="checkbox" />
+            <label for="save">Save card details</label>
+          </div>
+
+          <a href="/html/card_loading.html" class="pry-btn" id="payy"
+            >Pay ₦9,900</a
+          >
+        </div>
+      </div>
+      <p class="disclaimer">
+        Your personal data will be used to process your order, support your
+        experience throughout this website, and for other purposes described in
+        our privacy policy.
+      </p>
+    </section>
+    <!-- footer -->
+    <div id="footer-container"></div>
+
+    <!-- js -->
+    <script src="/components/js/nav.js"></script>
+    <script src="/components/js/footer.js"></script>
+  </body>
 </html>

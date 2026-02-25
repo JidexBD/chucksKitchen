@@ -1,0 +1,153 @@
+#real {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header h2 {
+  font-size: 3.2rem;
+}
+
+hr {
+  color: var(--s);
+}
+
+.form-contaienr {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-contaienr h3 {
+  font-size: 1.6rem;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.exp {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.save {
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+#CCV,
+#date {
+  padding: 1rem 0.5rem;
+}
+
+label {
+  font-size: 1.6rem;
+}
+
+.datey,
+.cc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#payy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.disclaimer {
+  font-size: 1.4rem;
+}
+
+/* tab */
+@media (min-width: 768px) {
+  .radio-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .datey,
+  .cc {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #CCV,
+  #date {
+    padding: 1rem 10rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  #real {
+    padding: 2rem;
+    margin: 3rem 8rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  input {
+    padding: 2rem 2rem;
+    border-radius: 8px;
+  }
+  .disclaimer {
+    font-size: 1.4rem;
+    width: 90ch;
+  }
+
+  #CCV,
+  #date {
+    padding: 2rem 16rem;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}
