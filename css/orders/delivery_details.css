@@ -1,0 +1,116 @@
+body {
+  background-color: var(--dgt);
+}
+
+main {
+  margin: 2rem 2rem;
+}
+
+.container {
+  background-color: var(-w);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+hr {
+  margin: 2rem 0;
+  color: var(--s);
+}
+
+.container h2 {
+  font-size: 3.2rem;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--s);
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.box-1 p {
+  font-size: 1.6rem;
+  letter-spacing: -2%;
+}
+
+.box-1 a {
+  color: var(--pb);
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-2 p {
+  padding: 1rem 2rem;
+  border: 1px solid var(--s);
+  border-radius: 5px;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-3 p {
+  padding: 1rem 4rem;
+  border: 1px solid var(--s);
+  border-radius: 5px;
+}
+
+.box-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-4 p {
+  padding: 1rem 2rem;
+  border: 1px solid var(--s);
+  border-radius: 5px;
+}
+
+#pay {
+  padding: 1rem 2rem;
+  background-color: var(--pc);
+  color: white;
+  border-radius: 8px;
+  margin: auto 10rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 2rem 5rem;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1280px) {
+  main {
+    margin: 2rem 8rem;
+  }
+
+  #pay {
+    padding: 1rem 2rem;
+    background-color: var(--pc);
+    color: white;
+    border-radius: 8px;
+    margin: auto 50rem;
+  }
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* 1800 */
+@media (min-width: 1800px) {
+}
