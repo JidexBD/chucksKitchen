@@ -62,6 +62,10 @@
 │
 ├── index.css
 └── index.html
+
+## Constraints
+    the ux needs adjusment as some pages do not flow into the other
+    some of the ui needs more adjustent on the product management end 
 ## Key Features
     ✔ Responsive Navigation Bar
 
@@ -76,6 +80,8 @@
     ✔ Cross-browser Compatible
     
     Tested on Chrome, Firefox, Edge, and Safari.
+
+    
 
     [project link:](https://chuckskitchenwebsite.netlify.app/)
 <img width="1920" height="1080" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/ae6fef20-3867-459f-a756-030f5d9bb8d0" />
